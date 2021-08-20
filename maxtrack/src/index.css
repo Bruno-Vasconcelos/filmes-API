@@ -1,0 +1,71 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #22254b;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #373b69;
+  display: flex;
+  padding: 1rem;
+  justify-content: space-around;
+}
+
+.filme-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.filme {
+  background-color: #373b69;
+  box-shadow: 3px 3px 5px
+   rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  margin: 1rem;
+  width: 350px;
+}
+
+.filme img{
+  max-width: 100%;
+}
+
+.filme-info{
+  align-items: center;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.infoAdd{
+  background-color: #fff;
+  color: #373b69;
+  position: absolute;
+  display: none;
+  padding: 1rem;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  justify-content: center;
+}
+
+
+.busca{
+  border: 2px solid black;
+  border-radius: 50px;
+  font-family: inherit;
+  font-size: 1.2rem;
+  padding: 0.5rem 1.5rem;
+}
+
